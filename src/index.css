@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagBtn {
+  @apply border border-gray-700 text-gray-700 text-lg rounded py-2 px-4 cursor-pointer hover:text-white hover:bg-gray-700 disabled:text-gray-400 disabled:border-gray-400 disabled:hover:bg-white disabled:hover:text-gray-400 disabled:hover:border-gray-400;
+}
+
+.container {
+  @apply max-w-6xl mx-auto;
+}
